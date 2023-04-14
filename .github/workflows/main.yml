@@ -12,5 +12,5 @@ jobs:
       with:
         server: files.000webhost.com
         username: testgit229
-        password: Send&Receive1
+        password: ${{ secrets.FTP_PASSWORD }}
         server-dir : public_html/
